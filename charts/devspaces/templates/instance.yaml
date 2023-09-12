@@ -16,7 +16,7 @@ spec:
       pvcStrategy: per-user
   components:
     cheServer:
-      debug: true
+      debug: false
       logLevel: INFO
     dashboard: {}
     devWorkspace: {}
