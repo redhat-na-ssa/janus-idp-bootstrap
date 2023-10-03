@@ -3,4 +3,5 @@ destination:
 git:
   applicationId: changeme
   infraOrgName: janus-idp
+  infraRepoName: demo-setup
   infraRevision: main

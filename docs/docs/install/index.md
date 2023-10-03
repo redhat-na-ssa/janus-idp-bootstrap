@@ -182,7 +182,7 @@ export JANUS_QUAY_TOKEN=
 Clone the `demo-setup` repo and run the next commands from inside of the `ansible/cluster-setup` directory
 
 ```sh
-git clone https://github.com/janus-idp/demo-setup.git
+git clone https://github.com/janus-idp/{{ .Values.git.infraRepoName }}
 cd demo-setup/ansible/cluster-setup
 ```
 

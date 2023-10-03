@@ -155,6 +155,7 @@
         git:
           applicationId: "{{ lookup('ansible.builtin.env', 'GITHUB_APP_ID') }}"
           infraOrgName: "{{ item.githubinfraorganization }}"
+          infraRepoName: "{{ item.githubinfrareponame }}"
           infraRevision: "{{ item.githubinfrarevision }}"
   - name: Pause for operators to complete install
     pause:

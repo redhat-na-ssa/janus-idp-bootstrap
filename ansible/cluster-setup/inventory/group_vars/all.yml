@@ -8,5 +8,7 @@ env:
   vaultnamespace: "vault"
   gitwebhooknamespace: "gitwebhook-operator"
   janusinstancename: "janus-dev"
-  githubinfraorganization: "janus-idp"
+  # githubinfraorganization: "janus-idp"
+  githubinfraorganization: "redhat-na-ssa"
+  githubinfrareponame: "janus-idp-bootstrap"
   githubinfrarevision: "main"
