@@ -24,6 +24,8 @@ spec:
               value: "{{ .Values.git.applicationId }}"
             - name: git.infraOrgName
               value: "{{ .Values.git.infraOrgName }}"
+            - name: git.infraRepoName
+              value: "{{ .Values.git.infraRepoName }}"
             - name: git.infraRevision
               value: "{{ .Values.git.infraRevision }}"
       destination:
